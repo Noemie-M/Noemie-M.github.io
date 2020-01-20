@@ -1,0 +1,146 @@
+body{
+    color: white;
+    overflow-x: hidden;
+}
+
+#name {
+    position: relative;
+    top: 150px;
+    left: 70px;
+    z-index: 10;
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+}
+li{
+    list-style-type: none;
+}
+#a:hover{
+    text-decoration: none;    
+    box-shadow: 0 0 10px #1a1919, 0 0 40px #1a1919, 0 0 80px #1a1919;
+    background-color: #1a1919;
+    color: white;
+}
+.fond {
+    background: url('../img/fond.jpg') no-repeat;
+    padding: 100px;
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.code {
+    background-image: url(../img/code.png);
+    padding: 100px;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% auto;
+}
+.billard {
+    background-image: url(../img/billard.jpg);
+    padding: 100px;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.archive {
+    background-image: url(../img/archive.jpg);
+    padding: 100px;
+    height: 500px;
+    margin-top: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.bgDark {
+    background-color: #1a1919;
+    color: #C0C0C0;
+}
+/*_______________________________________NAVBAR_________________________________________________*/
+
+.navbar-collapse {
+    justify-content: space-between;
+    color: #C0C0C0;
+}
+.miseEnForme{
+    padding:10%;
+    text-align: center;
+}
+/*_______________________________________BUTTON-NEON____________________________________________*/
+a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #C0C0C0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: 18px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+a:hover{
+    color: black;
+    background: #C2C2C2;
+    box-shadow: 0 0 10px #C2C2C2, 0 0 40px #C2C2C2, 0 0 80px #C2C2C2;
+    transition-delay: 0,25s;
+    border-radius: 5px;
+}
+.bgGreen{
+    background-color: #30531C;
+    font-weight: bold;
+    color: white;
+}
+.progress{
+    height:30px;
+    margin:10px;
+}
+.important{
+    margin-bottom: 120px;
+    font-size:24pt;
+}
+.fa-gitlab{
+    font-size:20px;
+}
+/*_______________________________________WORK________________________________________________*/
+.placeWork{
+    font-style: italic;
+}
+.dateWork{
+    font-size:12pt;
+}
+.work{
+    font-size:14pt;
+}
+.lead{
+    font-size:18pt;
+}
+.fa-gitlab{
+color: white;
+}
+.btnContact{
+    color: #C0C0C0;
+    background-color: rgba(0,0,0,0);
+}
+/*__________________________________________________________________________________________*/
+.footer{
+    text-align: center;
+}
+
+.fa-python{
+    color: white;    
+}
+.fa-linux{
+    color: white;
+}
+.fa-cuttlefish{
+    color: white;
+}
+.fa-github{
+    color: white;    
+}
